@@ -12,7 +12,7 @@ public class Questao01 {
 		int B = scanner.nextInt();
 		scanner.nextLine();
 	
-		
+		System.out.printf("%d + %d = %d",A, B, A+B);
 
 		scanner.close();
 	}
