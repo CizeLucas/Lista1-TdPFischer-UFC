@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Questao01 {
+public class Questão03 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -12,16 +12,19 @@ public class Questao01 {
 		int B = scanner.nextInt();
 		scanner.nextLine();
 	
-		if(A>10) {
-			System.out.println("A > 10");
+		if(A==10) {
+			System.out.println("A == 10");
 		}
 		
 		if(A+B==20) {
 			System.out.println("A + B == 20");
-		} else {
-			System.out.println("número não válido");
+		}
+		
+		if(B==10) {
+			System.out.println("B == 10");
 		}
 		
 		scanner.close();
 	}
+
 }
