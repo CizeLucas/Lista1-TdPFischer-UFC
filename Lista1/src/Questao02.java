@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Questao01 {
+public class Questao02 {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Digite A: ");
 		int A = scanner.nextInt();
@@ -13,7 +13,7 @@ public class Questao01 {
 		scanner.nextLine();
 	
 		
-
 		scanner.close();
 	}
+
 }
