@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//a
+
 public class Questao05 {
 
 	public static void main(String[] args) {

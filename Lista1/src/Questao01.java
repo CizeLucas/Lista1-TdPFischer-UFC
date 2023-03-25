@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//a
+
 public class Questao01 {
 
 	public static void main(String[] args) {
@@ -12,7 +12,6 @@ public class Questao01 {
 		int B = scanner.nextInt();
 		scanner.nextLine();
 	
-<<<<<<< HEAD
 		if(A>10) {
 			System.out.println("A > 10");
 		}
@@ -23,10 +22,6 @@ public class Questao01 {
 			System.out.println("número não válido");
 		}
 		
-=======
-		
-
->>>>>>> refs/remotes/origin/main
 		scanner.close();
 	}
 }
