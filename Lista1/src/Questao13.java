@@ -21,7 +21,7 @@ public class Questao13 {
 		if(!(A>10 || A+B==20)) { 		//!(A>10 || A+B==20) ou A<10 && A+B!=20
 			System.out.println("números não válidos");
 		}
-		
+		//a
 		scanner.close();
 	}
 
